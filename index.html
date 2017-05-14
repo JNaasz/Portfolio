@@ -2,47 +2,37 @@
 <html>
 <head>
 <title> Jennifer Naasz </title>
-<link href="style.css" type="text/css" rel="stylesheet">
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
-<body>
-<header>
-  <div id="header">
-<h1>Jennifer Naasz</h1>
-<nav>
-<ul>
-  <li id = "home"><a href="../NaaszPortfolio.html"> Home </a></li>
-  <li id = "about"><a href="About.html"> About </a></li>
-  <li id = "portfolio"><a href="../portfolio.portfolio.html">Portfolio</a></li>
-  <li id = "resume"><a href="../resume/resume.html">Resume</a></li>
-  <li id = "contact"><a href="../Contact/Contact.html"> Contact </a></li>
-</ul>
-</nav>
-</div>
-</header>
+<body ng-app="myModule">
+  <header>
+    <div id="header">
+       <h1 id="name">Jennifer Naasz</h1>
+       <nav>
+       <ul>
+         <li id = "home"><a href="#!/home"> Home </a></li>
+         <li id = "about"><a href="#!/about"> About </a></li>
+         <li id = "portfolio"><a href="#!/portfolio">Portfolio</a></li>
+         <li id = "resume"><a href="#!/resume">Resume</a></li>
+         <li id = "contact"><a href="#!/contact"> Contact </a></li>
+       </ul>
+       </nav>
+    </div>
+  </header>
 <!-- end header -->
 <!-- info box -->
-<div id="leaves">
-  <p>In viverra turpis orci, eu laoreet lorem interdum sit amet.
-     Mauris eget tristique dolor. Maecenas euismod fringilla massa,
-     vel mollis leo condimentum vel. Mauris sed vestibulum dolor,
-     sit amet tempor quam. Nunc varius faucibus justo, ut sodales eros finibus at.
-     Donec sed elit semper, mollis sem non, tincidunt ante. Suspendisse non porta nunc,
-     ac ullamcorper metus. Aenean id elit turpis. Sed accumsan semper dui,
-     non ultrices velit volutpat non. Quisque vel ullamcorper dolor.
-     Phasellus cursus pharetra convallis. Suspendisse massa ligula,
-     consequat eget nisl et, suscipit vulputate lorem. Morbi tempor vel lacus a vulputate.</p>
-  <p>Praesent varius, nunc non iaculis scelerisque, diam dolor placerat leo,
-    ac rutrum orci elit quis ante. Fusce leo lectus, semper a velit nec,
-    suscipit molestie tortor. In pulvinar, libero eu tristique pulvinar,
-    odio erat faucibus neque, et ornare lorem justo aliquam felis. Curabitur tellus velit,
-    cursus vitae nulla a, volutpat lacinia ipsum. Donec pulvinar sem sem.
-    Nam vitae massa nec ligula fermentum consequat. Duis fermentum elit at quam tincidunt mattis.
-  </p>
-</div>
 
-<blockquote>
-  <p>Normality is a paved road:<br />It's comfortable to walk, but no flowers grow.
-  <br /><i id="author">-Vincent van Gogh</i></p>
-</blockquote>
+
+  <ng-view></ng-view>
+
+
+<script src="libs/angular.min.js"></script>
+<script src="libs/angular-route.min.js"></script>
+<script src="script.js"></script>
+<script src="libs/app.js"></script>
+<script src="libs/directives.js"></script>
+<!-- <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script> -->
+
 </body>
 </html>
