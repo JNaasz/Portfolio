@@ -97,6 +97,7 @@ padding: 2%;
 width: 300px;
 height: 400px;
 border: 6px double #074e59;
+display: inline-block;
 }
 
 #contactNav {
@@ -110,7 +111,10 @@ border: 6px double #074e59;
 #contactNav img {
   width: 50px;
   margin: 20px;
+  display: inline-block;
 }
+
+
 
 #email {
   font-size: 140%;

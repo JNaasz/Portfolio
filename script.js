@@ -8,7 +8,8 @@ $('#twitter').mouseover(function(){
   $(this).attr('src', 'images/twitter.png');
 });
 
-
+var myEl = angular.element( document.querySelector( '#divID' ) );
+myEl.attr('myattr',"attr val");
 
 
 }())

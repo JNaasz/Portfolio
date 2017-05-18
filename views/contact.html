@@ -1,10 +1,21 @@
 <div id="contactNav">
   <div id="contactBox">
-  <a href="https://www.instagram.com/jnaaasz/"><img src="images/instagram.png"></a>
-  <a href="https://twitter.com/jennaasz">
-    <img src="images/twitter.png" id="twitter"></a>
-  <a href="https://www.linkedin.com/in/jennifer-naasz/"><img src="images/linkedin.png"></a>
-  <a href="https://github.com/JNaasz"><img src="images/git.png"></a>
+
+  <a href="https://www.instagram.com/jnaaasz/" ng-init="inssrc='images/instagram.png'"
+  ng-mouseover="inssrc='images/instagramHov.png'"
+  ng-mouseout="inssrc='/images/instagram.png'"><img src="{{inssrc}}"></a>
+
+  <a href="https://twitter.com/jennaasz" id="twitter" ng-init="imgsrc='/images/twitter.png'"
+  ng-mouseover="imgsrc='/images/twitterHov.png'"
+  ng-mouseout="imgsrc='/images/twitter.png'"><img ng-src="{{imgsrc}}"></a>
+
+  <a href="https://www.linkedin.com/in/jennifer-naasz/" ng-init="linsrc='/images/linkedin.png'"
+  ng-mouseover="linsrc='/images/linkedinHov.png'"
+  ng-mouseout="linsrc='/images/linkedin.png'"><img src="{{linsrc}}"></a>
+
+  <a href="https://github.com/JNaasz" ng-init="gitsrc='/images/git.png'"
+  ng-mouseover="gitsrc='/images/gitHov.png'"
+  ng-mouseout="gitsrc='/images/git.png'"><img src="{{gitsrc}}"></a>
 <div>
   <a href="mailto:naasz.jl@gmail.com" id="email">Shoot me an email: naasz.jl@gmail.com</a>
 </div>
