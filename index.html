@@ -4,7 +4,7 @@
 <title> Jennifer Naasz </title>
 <link href="css/style.css" type="text/css" rel="stylesheet">
 </head>
-<body ng-app="myModule">
+<body ng-app="myModule" ng-controller="backgroundController as main" ng-style="{'background-image': url(main.slide)}">
   <header>
     <div id="header">
        <h1 id="name">Jennifer Naasz</h1>
@@ -31,6 +31,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="script.js"></script>
 <script src="libs/app.js"></script>
+<script src="libs/contactController.js"></script>
 
 </body>
 </html>
