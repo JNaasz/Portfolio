@@ -116,7 +116,7 @@ blockquote {
 }
 
 .column {
-  width: 300px;
+  width: 100px;
   display: inline-block;
   margin-right: 20px;
   }
