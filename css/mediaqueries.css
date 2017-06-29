@@ -63,6 +63,58 @@
 
   /*-----portfolio view-----*/
 
+    #portfolioHead {
+      margin-top: 0px;
+      width: 90%;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 120%;
+      color: #A13E54;
+    }
+
+    #portfolioLinks {
+      margin-top: 20px;
+      width: auto;
+      overflow-x: auto;
+      height: 270px;
+      overflow-y: hidden;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: none;
+    }
+
+    figure {
+      width: 150px;
+      color: #e8f9d9;
+    }
+
+    figcaption {
+      font-size: 90%;
+      font-weight: bold;
+    }
+
+    figure p {
+      margin-top: 5px;
+      font-size: 80%;
+      white-space: normal;
+    }
+
+    figure img {
+      max-width: 130px;
+      box-shadow: 0 0 20px black;
+    }
+
+    figure p {
+      background-color: transparent;
+    }
+
+    #hideThis {
+      color: #074e59;
+      margin-top: 50px;
+      visibility: visible;
+      height: auto;
+    }
+
   /*-----resume view-----*/
 
   /*-----contact view-----*/

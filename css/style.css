@@ -106,7 +106,7 @@ a:hover {
   overflow-y: scroll;
 }
 
-#aboutImages {
+/*#aboutImages {
   position: relative;
   width: 670px;
   height: 590px;
@@ -130,7 +130,7 @@ a:hover {
   border-radius: 5px;
   margin-bottom: 8px;
   margin-top: 0px;
-}
+}*/
 
 /* ---------------------- Resume Page ------------------*/
 #resume {
@@ -180,7 +180,7 @@ display: inline-block;
   margin-left: 30px;
 }
 
-#portfoliolinks {
+#portfolioLinks {
   margin-top: 30px;
 }
 
@@ -212,4 +212,10 @@ figure p {
 
 figure a {
   color: yellow;
+}
+
+#hideThis {
+  visibility: hidden;
+  height: 0px;
+  overflow: hidden;
 }
