@@ -117,4 +117,22 @@
 
   /*-----resume view-----*/
 
+    #resume {
+      text-align: center;
+    }
+
+    #resume a img {
+      margin: 8% auto;
+    }
+
   /*-----contact view-----*/
+
+    #contactNav img {
+      width: 30px;
+      margin: 15px;
+    }
+
+    #email {
+      font-size: 130%;
+      color: #A13E54;
+    }
