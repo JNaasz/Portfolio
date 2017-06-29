@@ -3,6 +3,7 @@
   /*-----body-----*/
     body {
       background-image: url("../images/about/superior2.jpg");
+      height: 100%;
     }
 
     .page {
