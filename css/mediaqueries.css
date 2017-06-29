@@ -4,6 +4,8 @@
     body {
       background-image: url("../images/about/superior2.jpg");
       height: 100%;
+      width: 100%;
+      overflow: hidden;
     }
 
     .page {
@@ -123,7 +125,7 @@
     }
 
     #resume a img {
-      margin: 8% auto;
+      margin: 0 auto;
     }
 
   /*-----contact view-----*/
