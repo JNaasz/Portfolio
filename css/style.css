@@ -9,6 +9,7 @@
   font-family: 'DancingScriptBold';
   src: url(../fonts/DancingScript-Bold.ttf); format: (truetype);
 }
+
 body {
   background-image: url("../images/blue.jpg");
   background-color: #d3e2e7;
