@@ -71,7 +71,7 @@ a:hover {
 }
 
 /* -----------Home Page--------------------*/
-blockquote {
+#mainQuote {
   color: white;
   font-size: 200%;
   font-family: DancingScriptBold, cursive;
@@ -91,16 +91,18 @@ blockquote {
   background-image: url('../images/blueback.png');
   background-position: center center;
   background-size: cover;
-  height: 340px;
-  width: 550px;
+  height: 580px;
+  width: 650px;
   position: fixed;
-  top: 40%;
-  right: 2%;
+  top: 5%;
+  left: 5%;
   border: 3px solid #074e59;
   color: white;
   padding: 8px;
   font-family: Caveat, cursive;
   font-size: 140%;
+  overflow-x: none;
+  overflow-y: scroll;
 }
 
 #aboutImages {
@@ -198,7 +200,7 @@ figcaption {
 
 figure img {
   max-width: 220px;
-  border-radius: 0px 10px;
+  border-radius: 0px 25px;
 }
 
 figure p {
@@ -208,22 +210,5 @@ figure p {
 }
 
 figure a {
-  color: rgb(94, 252, 210);
+  color: yellow;
 }
-/*------- Media Queries-------*/
-
-@media only screen and (max-width: 550px) {
-  .column-1,
-  .column-2,
-  .column-3,
-  .column-4 {
-      width: auto;
-      float: none;
-  }
-  .column + .column {
-    margin-left: 0;
-  }
-}
-/*#resume img {
-  margin: 4%;
-}*/
