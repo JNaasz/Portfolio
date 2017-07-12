@@ -228,7 +228,7 @@ figure p {
   font-family: 'Cardo', serif;
 }
 
-figure a {
+figure a:link {
   color: yellow;
 }
 
