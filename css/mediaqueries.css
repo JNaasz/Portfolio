@@ -78,14 +78,6 @@
       height: 0px;
     }
 
-    /*#leaves::-webkit-scrollbar-thumb {
-      background-image: -webkit-gradient(linear,
-                        left top,
-                        left bottom,
-                        color-stop(0.20, #af898d),
-                        color-stop(0.45, rgb(174, 180, 191)),
-                        color-stop(0.85, #074e59));*/
-
   /*-----portfolio view-----*/
 
     #portfolioHead {
@@ -162,3 +154,16 @@
       font-size: 130%;
       color: #A13E54;
     }
+
+
+/*-------About Page scrollbar--------
+          this was messing up the following code when included in the
+          about section above--------*/
+
+    #leaves::-webkit-scrollbar-thumb {
+      background-image: -webkit-gradient(linear,
+                        left top,
+                        left bottom,
+                        color-stop(0.20, #af898d),
+                        color-stop(0.45, rgb(174, 180, 191)),
+                        color-stop(0.85, #074e59));
