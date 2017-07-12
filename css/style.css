@@ -100,11 +100,15 @@ a:hover {
   border: 3px solid #074e59;
   color: white;
   padding: 8px;
-  font-family: 'Over the Rainbow', cursive;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 140%;
   overflow-x: none;
   overflow-y: scroll;
   /*direction: rtl;*/
+}
+
+#leaves li {
+  margin: 10px 20px 5px 0px;
 }
 
 #leaves::-webkit-scrollbar {
@@ -159,6 +163,17 @@ border: 6px double #074e59;
 display: inline-block;
 }
 
+/*.showNow {
+  visibility: visible;
+  position: absolute;
+  bottom: 2%;
+  font-size: 200%;
+  color: white;
+}
+
+.hideNow {
+  visibility: hidden;
+}*/
 /* -------------------- Contact Page ---------------------- */
 #contactNav {
   margin: 0 auto;
