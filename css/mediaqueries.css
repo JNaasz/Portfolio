@@ -68,6 +68,24 @@
       margin-bottom: 10px;
     }
 
+    #aboutImage1 {
+      height: 200px;
+      visibility: visible;
+    }
+
+    #aboutImage2 {
+      visibility: hidden;
+      height: 0px;
+    }
+
+    #leaves::-webkit-scrollbar-thumb {
+      background-image: -webkit-gradient(linear,
+                        left top,
+                        left bottom,
+                        color-stop(0.20, #af898d),
+                        color-stop(0.45, rgb(174, 180, 191)),
+                        color-stop(0.85, #074e59));
+
   /*-----portfolio view-----*/
 
     #portfolioHead {

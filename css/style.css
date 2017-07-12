@@ -100,7 +100,7 @@ a:hover {
   border: 3px solid #074e59;
   color: white;
   padding: 8px;
-  font-family: Caveat, cursive;
+  font-family: 'Over the Rainbow', cursive;
   font-size: 140%;
   overflow-x: none;
   overflow-y: scroll;
@@ -125,6 +125,21 @@ a:hover {
                     color-stop(0.30, rgb(174, 180, 191)),
                     color-stop(0.45, rgb(85, 107, 147)),
                     color-stop(0.85, rgb(13, 33, 71)));
+}
+
+#aboutImage1 {
+  visibility: hidden;
+  height: 0px;
+}
+
+#aboutImage2 {
+  position: absolute;
+  right: 8%;
+  top: 45%;
+  max-width: 400px;
+  box-shadow: 0 0 20px black;
+  border-radius: 5px;
+  visibility: visible;
 }
 
 
@@ -168,11 +183,11 @@ display: inline-block;
 /*------- Portfolio Page -----------*/
 
 #portfolioHead {
-  width: 500px;
-  font-family: Caveat, cursive;
-  color: white;
-  font-size: 150%;
-  margin-top: -50px;
+  width: 530px;
+  font-family: 'Cardo', serif;
+  color: #f2e6e3;
+  font-size: 135%;
+  margin-top: -70px;
   margin-left: 30px;
 }
 
@@ -187,12 +202,14 @@ figure {
   margin-top: 35px;
   margin: 0 10px;
   padding: 8px;
-  color: white;
+  color: #f2e6e3;
 }
 
 figcaption {
   padding-bottom: 8px;
   font-size: 120%;
+  color: #f2e6e3;
+  font-family: 'Cardo', serif;
 }
 
 figure img {
@@ -200,10 +217,15 @@ figure img {
   border-radius: 0px 25px;
 }
 
+figure img:hover {
+  box-shadow: 0 0 50px #c46b4e;
+}
+
 figure p {
-  background-color: rgba(24, 82, 67, .3);
   padding: 5px;
   border-radius: 3px;
+  color: #f2e6e3;
+  font-family: 'Cardo', serif;
 }
 
 figure a {
